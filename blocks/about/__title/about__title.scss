@@ -8,3 +8,11 @@
   text-transform: uppercase;
   color: $primaryColor;
 }
+
+@media screen and (max-width: 768px) {
+  .about__title {
+    font-weight: 500;
+    font-size: $baseFontSize * 2px;
+    line-height: $baseLineHeight * 10px;
+  }
+}
