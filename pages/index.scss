@@ -1,0 +1,60 @@
+@import "../vendor/normalize";
+@import "../vendor/fonts";
+
+@import "../blocks/variables.scss";
+@import "../blocks/functions.scss";
+@import "../blocks/mixins.scss";
+
+@import "../blocks/page/page.scss";
+@import "../blocks/page/__block/page__block.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/header/__block/header__block.scss";
+@import "../blocks/header/__title-block/header__title-block.scss";
+@import "../blocks/header/__title/header__title.scss";
+@import "../blocks/header/__button/header__button.scss";
+@import "../blocks/header/__wrapper/header__wrapper.scss";
+
+@import "../blocks/menu/menu.scss";
+@import "../blocks/menu/__title/menu__title.scss";
+@import "../blocks/menu/__button/menu__button.scss";
+
+@import "../blocks/about/about.scss";
+@import "../blocks/about/__block/about__block.scss";
+@import "../blocks/about/__block/_item/about__block_item.scss";
+@import "../blocks/about/__paragraph/_font/about__paragraph_font_small.scss";
+@import "../blocks/about/__paragraph/_font/about__paragraph_font_big.scss";
+@import "../blocks/about/__title/about__title.scss";
+@import "../blocks/about/__image/about__image.scss";
+@import "../blocks/about/__image/_content/about__image_content_bag.scss";
+@import "../blocks/about/__block/_element/about__block_element.scss";
+@import "../blocks/about/__paragraph/_section/about__paragraph_section_bag.scss";
+@import "../blocks/about/__paragraph/_section/about__paragraph_section_suite.scss";
+
+@import "../blocks/looks/looks.scss";
+@import "../blocks/looks/__block/looks__block.scss";
+@import "../blocks/looks/__title/looks__title.scss";
+@import "../blocks/gallery/gallery.scss";
+@import "../blocks/gallery/__image/gallery__image.scss";
+@import "../blocks/gallery/__item/gallery__item.scss";
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__block/footer__block.scss";
+@import "../blocks/footer/__title/footer__title.scss";
+@import "../blocks/form/form.scss";
+@import "../blocks/form/__input-container/form__input-container.scss";
+@import "../blocks/form/__input-container/_element/form__input-container_element.scss";
+@import "../blocks/form/__button-submit/form__button-submit.scss";
+@import "../blocks/form/__item/form__item.scss";
+@import "../blocks/form/__context/form__context.scss";
+@import "../blocks/footer/__subtitle/footer__subtitle.scss";
+@import "../blocks/form/__checkbox/form__checkbox.scss";
+
+@import "../blocks/popup/popup.scss";
+@import "../blocks/popup/__container/popup__container.scss";
+@import "../blocks/popup/_opened/popup_opened.scss";
+@import "../blocks/popup/__list/popup__list.scss";
+@import "../blocks/popup/__button-close/popup__button-close.scss";
+@import "../blocks/popup/__menu/popup__menu.scss";
+@import "../blocks/popup/__list/_item/popup__list_item.scss";
+@import "../blocks/popup/__list/_link/popup__list_link.scss";

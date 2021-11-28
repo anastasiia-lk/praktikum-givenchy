@@ -1,0 +1,12 @@
+.about__paragraph_font_big {
+  margin: 0 0 24px 0;
+  font-weight: $fontWeightMedium;
+  font-size: $baseFontSize * 2px;
+  line-height: $baseLineHeight * 11px;
+  letter-spacing: 0.02em;
+  color: $primaryColor;
+}
+
+.about__paragraph_font_big:last-child {
+  margin-bottom: 0;
+}

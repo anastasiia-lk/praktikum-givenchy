@@ -1,0 +1,21 @@
+.form__item {
+  padding: 11px 24px;
+  margin: 0;
+  border: 0.5px solid $secondaryColor;
+  box-sizing: border-box;
+  font-weight: $fontWeightRegular;
+  font-size: $baseFontSize * 1px;
+  line-height: $baseLineHeight * 6px;
+  color: $thirdColor;
+  width: calc(100% - 108px);
+  background-color: inherit;
+}
+
+@media screen and (max-width: 534px) {
+  .form__item {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    text-align: center;
+  }
+}

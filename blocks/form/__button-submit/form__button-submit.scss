@@ -1,0 +1,30 @@
+.form__button-submit {
+  width: 108px;
+  height: 48px;
+  padding: 12px 24px;
+  margin: 0;
+  background: $secondaryColor;
+  border: 0.5px solid $secondaryColor;
+  box-sizing: border-box;
+  font-weight: $fontWeightMedium;
+  font-size: $baseFontSize * 1px;
+  line-height: $baseLineHeight * 6px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $primaryColor;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    color: $secondaryColor;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .form__button-submit {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+  }
+}
