@@ -584,6 +584,10 @@ template {
   margin: 0 195px 80px 0;
 }
 
+.about__block_item:nth-child(3) > .about__image {
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
   .about__block_item {
     margin-bottom: 70px;
