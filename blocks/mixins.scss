@@ -1,0 +1,13 @@
+// @mixin icon($name, $width, $height) {
+//   .icon-#{$name} {
+//     background-image: url("/icons/#{$name}.svg");
+//     position: absolute;
+//     width: #{$width}px;
+//     height: #{$height}px;
+//   }
+// }
+
+// @include icon("mail", 32, 32);
+// @include icon("snail", 64, 64);
+// @include icon("user", 48, 48);
+// @include icon("alert", 128, 128);

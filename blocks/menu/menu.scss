@@ -1,0 +1,11 @@
+.menu {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 468px) {
+  .menu {
+    margin-top: 16px;
+  }
+}

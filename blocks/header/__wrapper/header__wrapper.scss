@@ -1,0 +1,20 @@
+.header__wrapper {
+}
+
+// @media screen and (max-width: 768px) {
+//   .header__wrapper {
+//     margin: 155px 0 0 243px;
+//   }
+// }
+
+// @media screen and (max-width: 753px) {
+//   .header__wrapper {
+//     margin: 75px 0 0 121px;
+//   }
+// }
+
+@media screen and (max-width: 320px) {
+  .header__wrapper {
+    margin: 71px 0 0 20px;
+  }
+}

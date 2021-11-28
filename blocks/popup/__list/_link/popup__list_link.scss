@@ -1,0 +1,9 @@
+.popup__list_link {
+  font-weight: $fontWeightMedium;
+  font-size: $baseFontSize * 1px;
+  line-height: $baseLineHeight * 6px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $secondaryColor;
+  text-decoration: none;
+}

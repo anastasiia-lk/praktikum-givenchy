@@ -1,0 +1,49 @@
+.header__block {
+  width: calc(100% - 24px);
+  margin: 0 auto 0 24px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: flex-end;
+  background-image: url(../images/brown-outfit.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 934px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__block {
+    height: 646px;
+  }
+}
+
+@media screen and (max-width: 527px) {
+  .header__block {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .header__block {
+    height: 426px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .header__block {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__block {
+    background-size: 100% 426px;
+    width: 100%;
+    margin: 0;
+  }
+}

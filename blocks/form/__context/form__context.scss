@@ -1,0 +1,14 @@
+.form__context {
+  font-weight: $fontWeightRegular;
+  font-size: $baseFontSize * 1px;
+  line-height: $baseLineHeight * 6px;
+  color: $secondaryColor;
+  margin: 0 0 0 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .form__context {
+    font-size: 14px;
+    line-height: $baseLineHeight * 5px;
+  }
+}
