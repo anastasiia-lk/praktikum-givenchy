@@ -11,3 +11,11 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .about__paragraph_font_small {
+    font-size: $baseFontSize * 1px;
+    line-height: $baseLineHeight * 6px;
+    width: 100%;
+  }
+}
