@@ -1022,23 +1022,25 @@ template {
 
 .form__checkbox + label {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  width: 100%;
 }
 
 .form__checkbox + label::before {
   content: "";
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 22px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60% 60%;
+  margin-right: 10px;
 }
 
 .form__checkbox:checked + label::before {
@@ -1047,6 +1049,30 @@ template {
   background-image: url("../images/checkbox.svg");
 }
 
+@media screen and (max-width: 768px) {
+  .form__checkbox + label::before {
+    width: 43px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .form__checkbox + label::before {
+    width: 58px;
+  }
+}
+.form__checkbox-label {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .form__checkbox-label {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 .popup {
   width: 100%;
   height: 810px;
