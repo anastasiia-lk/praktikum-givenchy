@@ -1,4 +1,4 @@
-const menuButton = document.querySelector('.header__menu-button');
+const menuButton = document.querySelector('.header__button');
 const popup = document.querySelector('.popup');
 const popupButtonClose = document.querySelector('.popup__button-close');
 
