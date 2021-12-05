@@ -382,7 +382,7 @@ template {
   margin: 0 auto 0 24px;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/brown-outfit.svg);
+  background-image: url(../images/brown-outfit.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -727,14 +727,12 @@ template {
 
 @media screen and (max-width: 768px) {
   .about__title {
-    font-weight: 500;
     font-size: 32px;
     line-height: 40px;
   }
 }
 @media screen and (max-width: 320px) {
   .about__title {
-    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 20px;
