@@ -1,0 +1,21 @@
+.about__collection_paragraph {
+  width: 50%;
+  font-weight: $fontWeightRegular;
+  font-size: 20px;
+  line-height: $baseLineHeight * 8px;
+  color: $primaryColor;
+}
+
+@media screen and (max-width: 768px) {
+  .about__collection_paragraph {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__collection_paragraph {
+    font-size: $baseFontSize * 1px;
+    line-height: $baseLineHeight * 6px;
+    width: 100%;
+  }
+}

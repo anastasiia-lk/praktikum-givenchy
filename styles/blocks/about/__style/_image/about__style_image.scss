@@ -1,0 +1,26 @@
+.about__style_image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  z-index: -10;
+  margin: 0;
+}
+
+.about__style_image:nth-child(2) {
+  margin-left: 0;
+  margin-right: 82px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__style_image {
+    width: 41.7%;
+    margin: 0 60px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__style_image {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}

@@ -583,6 +583,11 @@ template {
     width: calc(100% - 40px);
   }
 }
+@media screen and (max-width: 320px) {
+  .about__block {
+    min-width: 0;
+  }
+}
 .about__block_item {
   display: flex;
   margin: 0 0 80px 0;
@@ -768,6 +773,279 @@ template {
   margin: 426px -175px 0 0;
 }
 
+.about__collection {
+  display: flex;
+  margin: 0 0 80px 0;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .about__collection {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__collection {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.about__collection-paragraph {
+  width: 50%;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0a0a0a;
+}
+
+@media screen and (max-width: 768px) {
+  .about__collection-paragraph {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__collection-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+}
+.about__fashion {
+  display: flex;
+  margin: 0 195px 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about__fashion {
+    margin: 0 0 70px 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__fashion {
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.about__fashion-block {
+  margin-top: 271px;
+  margin-right: -175px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__fashion-block {
+    margin-right: -175px;
+    margin-top: 0;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__fashion-block {
+    width: 100%;
+    order: 1;
+    margin: 0;
+  }
+}
+.about__fashion-paragraph {
+  margin: 0 0 24px 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  color: #0a0a0a;
+}
+
+.about__fashion-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .about__fashion-paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.about__fashion-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: -175px;
+  z-index: -10;
+}
+
+.about__fashion-image:nth-child(2) {
+  margin-left: 0;
+  margin-right: 82px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__fashion-image {
+    width: 50%;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__fashion-image {
+    width: 100%;
+    order: 0;
+    margin: 0 0 20px 0;
+  }
+}
+.about__style {
+  display: flex;
+  margin: 0 0 80px 0;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .about__style {
+    margin: 0 0 120px 0;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__style {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.about__style_image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  z-index: -10;
+  margin: 0;
+}
+
+.about__style_image:nth-child(2) {
+  margin-left: 0;
+  margin-right: 82px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__style_image {
+    width: 41.7%;
+    margin: 0 60px 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__style_image {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+.about__style_paragraph {
+  width: 50%;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0a0a0a;
+  margin: 172px 0 0 82px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__style_paragraph {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__style_paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+}
+.about__clothes {
+  display: flex;
+  margin: 0 0 80px 0;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .about__clothes {
+    margin-bottom: 70px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__clothes {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+.about__clothes_text-block {
+  margin: 426px -175px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about__clothes_text-block {
+    margin: 0 -121px 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__clothes_text-block {
+    order: 1;
+    margin: 0;
+  }
+}
+.about__clothes_paragraph {
+  margin: 0 0 24px 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  color: #0a0a0a;
+}
+
+.about__clothes_paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .about__clothes_paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.about__clothes_image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: -175px;
+  z-index: -10;
+}
+
+.about__clothes_image:nth-child(2) {
+  margin-left: 0;
+  margin-right: 82px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__clothes_image {
+    width: 66.6%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__clothes_image {
+    order: 0;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
 .looks {
   margin: 0 auto 80px auto;
 }
@@ -890,6 +1168,7 @@ template {
 @media screen and (max-width: 528px) {
   .footer__block {
     width: 87.5%;
+    min-width: 0;
   }
 }
 .footer__title {

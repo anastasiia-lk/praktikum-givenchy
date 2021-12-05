@@ -1,0 +1,20 @@
+.about__fashion_paragraph {
+  margin: 0 0 24px 0;
+  font-weight: $fontWeightMedium;
+  font-size: $baseFontSize * 2px;
+  line-height: $baseLineHeight * 11px;
+  letter-spacing: 0.02em;
+  color: $primaryColor;
+}
+
+.about__fashion_paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .about__fashion_paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: $baseLineHeight * 7px;
+  }
+} ;

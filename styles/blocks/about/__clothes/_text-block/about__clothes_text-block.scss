@@ -1,0 +1,16 @@
+.about__clothes_text-block {
+  margin: 426px -175px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about__clothes_text-block {
+    margin: 0 -121px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__clothes_text-block {
+    order: 1;
+    margin: 0;
+  }
+}
