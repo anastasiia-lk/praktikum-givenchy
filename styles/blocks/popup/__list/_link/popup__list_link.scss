@@ -6,4 +6,8 @@
   text-transform: uppercase;
   color: $secondaryColor;
   text-decoration: none;
+
+  &:hover {
+    color: $thirdColor;
+  }
 }

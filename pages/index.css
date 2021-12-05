@@ -379,7 +379,7 @@ template {
   min-width: 320px;
   max-width: 1440px;
   width: calc(100% - 24px);
-  margin: 0 auto 0 24px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   background-image: url(../images/brown-outfit.jpg);
@@ -431,7 +431,7 @@ template {
   color: #0a0a0a;
   margin: 0 0 32px 0;
   height: 192px;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -1175,4 +1175,7 @@ template {
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
+}
+.popup__list_link:hover {
+  color: #666;
 }/*# sourceMappingURL=index.css.map */

@@ -7,7 +7,7 @@
   color: $primaryColor;
   margin: 0 0 32px 0;
   height: 192px;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 @media screen and (max-width: 768px) {
