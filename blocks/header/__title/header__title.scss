@@ -6,12 +6,15 @@
   text-transform: uppercase;
   color: $primaryColor;
   margin: 0 0 32px 0;
+  height: 192px;
+  overflow-y: scroll;
 }
 
 @media screen and (max-width: 768px) {
   .header__title {
     font-size: $baseFontSize * 2px;
     line-height: $baseLineHeight * 10px;
+    height: 120px;
   }
 }
 
@@ -19,5 +22,11 @@
   .header__title {
     font-size: 24px;
     line-height: $baseLineHeight * 8px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .header__title {
+    height: 128px;
   }
 }

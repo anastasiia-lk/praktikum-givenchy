@@ -430,18 +430,26 @@ template {
   text-transform: uppercase;
   color: #0a0a0a;
   margin: 0 0 32px 0;
+  height: 192px;
+  overflow-y: hidden;
 }
 
 @media screen and (max-width: 768px) {
   .header__title {
     font-size: 32px;
     line-height: 40px;
+    height: 120px;
   }
 }
 @media screen and (max-width: 468px) {
   .header__title {
     font-size: 24px;
     line-height: 32px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .header__title {
+    height: 128px;
   }
 }
 .header__link {
