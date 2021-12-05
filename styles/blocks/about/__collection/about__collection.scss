@@ -1,0 +1,21 @@
+.about__collection {
+  display: flex;
+  margin: 0 0 80px 0;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .about__collection {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__collection {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

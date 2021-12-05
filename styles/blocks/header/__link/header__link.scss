@@ -1,0 +1,33 @@
+.header__link {
+  width: 350px;
+  height: 48px;
+  background: $primaryColor;
+  border: 0.5px solid $primaryColor;
+  box-sizing: border-box;
+  padding: 12px 24px;
+  font-weight: $fontWeightMedium;
+  font-size: $baseFontSize * 1px;
+  line-height: $baseLineHeight * 6px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $secondaryColor;
+  text-decoration: none;
+
+  &:hover {
+    background: $secondaryColor;
+    border: 0.5px solid $secondaryColor;
+    color: $primaryColor;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .header__link {
+    width: 280px;
+    height: 44px;
+    font-size: 14px;
+    line-height: $baseLineHeight * 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

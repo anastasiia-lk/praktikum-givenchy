@@ -1,0 +1,23 @@
+.footer__title {
+  margin: 0 auto 40px;
+  font-weight: $fontWeightRegular;
+  font-size: 20px;
+  line-height: $baseLineHeight * 8px;
+  text-align: center;
+  color: $secondaryColor;
+  width: calc(100% - 108px);
+}
+
+@media screen and (max-width: 768px) {
+  .footer__title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__title {
+    font-size: $baseFontSize * 1px;
+    line-height: $baseLineHeight * 6px;
+    margin: 0 0 40px;
+  }
+}

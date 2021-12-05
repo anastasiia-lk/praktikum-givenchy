@@ -1,0 +1,15 @@
+.footer__subtitle {
+  margin: 0;
+  font-weight: $fontWeightRegular;
+  font-size: 20px;
+  line-height: $baseLineHeight * 8px;
+  text-align: center;
+  color: $secondaryColor;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__subtitle {
+    font-size: $baseFontSize * 1px;
+    line-height: $baseLineHeight * 6px;
+  }
+}

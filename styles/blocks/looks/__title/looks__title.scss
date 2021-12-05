@@ -1,0 +1,24 @@
+.looks__title {
+  font-weight: $fontWeightMedium;
+  font-size: $baseFontSize * 3px;
+  line-height: $baseLineHeight * 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $primaryColor;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .looks__title {
+    font-size: $baseFontSize * 2px;
+    line-height: $baseLineHeight * 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .looks__title {
+    font-size: $baseFontSize * 1.5px;
+    line-height: $baseLineHeight * 8px;
+    margin-bottom: 20px;
+  }
+}

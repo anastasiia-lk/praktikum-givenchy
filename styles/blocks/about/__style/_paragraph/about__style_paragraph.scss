@@ -1,0 +1,22 @@
+.about__style_paragraph {
+  width: 50%;
+  font-weight: $fontWeightRegular;
+  font-size: 20px;
+  line-height: $baseLineHeight * 8px;
+  color: $primaryColor;
+  margin: 172px 0 0 82px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__style_paragraph {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__style_paragraph {
+    font-size: $baseFontSize * 1px;
+    line-height: $baseLineHeight * 6px;
+    width: 100%;
+  }
+}

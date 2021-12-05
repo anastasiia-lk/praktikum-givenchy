@@ -1,0 +1,18 @@
+.about__block {
+  min-width: 320px;
+  max-width: 1440px;
+  width: 97.2%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .about__block {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__block {
+    min-width: 0;
+  }
+}

@@ -1,0 +1,13 @@
+@font-face {
+  src: url("../vendor/fonts/prompt-v5-latin-regular.woff2") format("woff2"),
+    url("../vendor/fonts/prompt-v5-latin-regular.woff") format("woff");
+  font-family: "Promt";
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("../vendor/fonts/prompt-v5-latin-500.woff2") format("woff2"),
+    url("../vendor/fonts/prompt-v5-latin-500.woff") format("woff");
+  font-family: "Promt";
+  font-weight: 500;
+}

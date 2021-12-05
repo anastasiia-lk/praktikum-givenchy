@@ -1,0 +1,14 @@
+.form__checkbox-label {
+  font-weight: $fontWeightRegular;
+  font-size: $baseFontSize * 1px;
+  line-height: $baseLineHeight * 6px;
+  color: $secondaryColor;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .form__checkbox-label {
+    font-size: 14px;
+    line-height: $baseLineHeight * 5px;
+  }
+}
