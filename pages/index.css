@@ -350,12 +350,9 @@ template {
   font-weight: 500;
 }
 .page {
-  min-width: 320px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1440px;
   /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
   /* выше для экранов больше 1440px отцентрировали весь контент */
   font-family: "Promt", Arial, sans-serif;
   font-style: normal;
@@ -367,15 +364,20 @@ template {
 
 .page__block {
   margin: 0 auto;
+  min-width: 320px;
+  max-width: 1440px;
 }
 
 .header {
+  margin: 0 auto;
   display: flex;
   background-color: #e7e7e2;
   margin-bottom: 80px;
 }
 
 .header__block {
+  min-width: 320px;
+  max-width: 1440px;
   width: calc(100% - 24px);
   margin: 0 auto 0 24px;
   display: flex;
@@ -385,6 +387,7 @@ template {
   background-repeat: no-repeat;
   background-size: contain;
   height: 934px;
+  background-color: #e7e7e2;
 }
 
 @media screen and (max-width: 768px) {
@@ -552,7 +555,7 @@ template {
   }
 }
 .about {
-  margin-bottom: 80px;
+  margin: 0 auto 80px 0;
 }
 
 @media screen and (max-width: 320px) {
@@ -561,6 +564,8 @@ template {
   }
 }
 .about__block {
+  min-width: 320px;
+  max-width: 1440px;
   width: 97.2%;
   margin: 0 auto;
 }
@@ -758,10 +763,12 @@ template {
 }
 
 .looks {
-  margin-bottom: 80px;
+  margin: 0 auto 80px auto;
 }
 
 .looks__block {
+  min-width: 320px;
+  max-width: 1440px;
   padding: 0 20px 0 20px;
   /* width: 93%; */
   display: block;
@@ -859,6 +866,8 @@ template {
 }
 
 .footer__block {
+  min-width: 320px;
+  max-width: 1440px;
   width: 48.6%;
   margin: 0 auto;
   padding: 40px 0;
